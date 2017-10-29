@@ -11,6 +11,8 @@ function out() {
 	//afterBegin - после открывающего тега
 	//p.insertAdjacentHTML("beforeEnd", "Hello!");
 	//beforeEnd - перед закрывающим тегом
-	p.insertAdjacentHTML("afterEnd", "Hello!");
+	//p.insertAdjacentHTML("afterEnd", "Hello!");
 	//afterEnd - после закрывающего тега
+	p.outerHTML = "<div class="
+	one ">hello</div>";
 }
