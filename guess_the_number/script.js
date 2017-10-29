@@ -1,7 +1,8 @@
 var prNum, tempOut;
 prNum = Math.floor((Math.random() * 10) + 1);
-tempOut = document.getElementById('temp-out');
-tempOut.innerHTML = prNum;
+//tempOut = document.getElementById('temp-out');
+//tempOut.innerHTML = prNum;
+console.log(prNum);
 
 function f1() {
 	var num, out;
