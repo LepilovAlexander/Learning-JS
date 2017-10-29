@@ -7,9 +7,6 @@ console.log(prNum);
 function f1() {
 	var num, out;
 	//Генерацмя от 1 - 10
-	prNum = Math.floor((Math.random() * 10) + 1);
-	tempOut = document.getElementById('temp-out');
-	tempOut.innerHTML = prNum;
 
 	num = document.getElementById('mynum').value;
 	out = document.getElementById('out');
